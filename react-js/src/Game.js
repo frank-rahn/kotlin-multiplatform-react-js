@@ -100,6 +100,7 @@ class Game extends React.Component {
                 history: [{
                   squares: Array(9).fill(null),
                 }],
+                showPlayerSelection: true,
               });
             }}>Start new game</button>}
             <ol>{moves}</ol>
